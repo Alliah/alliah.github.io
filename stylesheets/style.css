@@ -1,50 +1,175 @@
-/*
-Error: Invalid CSS after "...argin-top: 20px": expected "{", was "; )"
-        on line 45 of /Users/alliahbenederio/Sites/alliah.github.io/sass/style.scss
+/* line 5, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
 
-40: 
-41: .m0 { margin: 0 !important;}
-42: .m1 { margin: 10px; }
-43: .m2 { margin: 20px; }
-44: .mt1 { margin-top: 10px; }
-45: .mt2. ( margin-top: 20px; )
-46: 
-47: .pd0 { padding: 0 !important; }
-48: .pd1 { padding: 10px; }
-49: .pd2 { padding: 20px; }
-50: .pt { padding-top: 10px; }
+/* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
 
-Backtrace:
-/Users/alliahbenederio/Sites/alliah.github.io/sass/style.scss:45
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/scss/parser.rb:1161:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/scss/parser.rb:1097:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/scss/parser.rb:1092:in `tok!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/scss/parser.rb:637:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/scss/parser.rb:631:in `ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/scss/parser.rb:656:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/scss/parser.rb:649:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/scss/parser.rb:117:in `stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/scss/parser.rb:42:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/engine.rb:403:in `_to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/engine.rb:278:in `render'
-/Library/Ruby/Gems/2.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
-/Library/Ruby/Gems/2.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
-/Library/Ruby/Gems/2.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:328:in `block in watch'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/vendor/listen/lib/listen/listener.rb:252:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/vendor/listen/lib/listen/adapter.rb:254:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...argin-top: 20px\": expected \"{\", was \"; )\"\A         on line 45 of /Users/alliahbenederio/Sites/alliah.github.io/sass/style.scss\A \A 40: \A 41: .m0 { margin: 0 !important;}\A 42: .m1 { margin: 10px; }\A 43: .m2 { margin: 20px; }\A 44: .mt1 { margin-top: 10px; }\A 45: .mt2. ( margin-top: 20px; )\A 46: \A 47: .pd0 { padding: 0 !important; }\A 48: .pd1 { padding: 10px; }\A 49: .pd2 { padding: 20px; }\A 50: .pt { padding-top: 10px; }"; }
+/* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, ../sass/style.scss */
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #333;
+  line-height: 1.45;
+  background-color: #fff;
+  margin: 0;
+  -webkit-text-size-adjust: none;
+  font-weight: 400;
+}
+
+/* line 16, ../sass/style.scss */
+p {
+  margin-bottom: 1.3em;
+}
+
+/* line 18, ../sass/style.scss */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+/* line 24, ../sass/style.scss */
+h1, .h1 {
+  margin-top: 0;
+  font-size: 2.074em;
+}
+
+/* line 29, ../sass/style.scss */
+h2, .h2 {
+  font-size: 1.728em;
+}
+
+/* line 31, ../sass/style.scss */
+h3, .h3 {
+  font-size: 1.44em;
+}
+
+/* line 33, ../sass/style.scss */
+h4, .h4 {
+  font-size: 1.2em;
+}
+
+/* line 35, ../sass/style.scss */
+h5, .h5 {
+  font-size: 1em;
+}
+
+/* line 37, ../sass/style.scss */
+h6, .h6, small, .small {
+  font-size: 0.833em;
+}
+
+/* line 41, ../sass/style.scss */
+.m0 {
+  margin: 0 !important;
+}
+
+/* line 42, ../sass/style.scss */
+.m1 {
+  margin: 10px;
+}
+
+/* line 43, ../sass/style.scss */
+.m2 {
+  margin: 20px;
+}
+
+/* line 44, ../sass/style.scss */
+.mt1 {
+  margin-top: 10px;
+}
+
+/* line 45, ../sass/style.scss */
+.mt2 {
+  margin-top: 20px;
+}
+
+/* line 47, ../sass/style.scss */
+.pd0 {
+  padding: 0 !important;
+}
+
+/* line 48, ../sass/style.scss */
+.pd1 {
+  padding: 10px;
+}
+
+/* line 49, ../sass/style.scss */
+.pd2 {
+  padding: 20px;
+}
+
+/* line 50, ../sass/style.scss */
+.pt {
+  padding-top: 10px;
+}
+
+/* line 51, ../sass/style.scss */
+.pt2 {
+  padding-top: 20px;
+}
+
+/* line 55, ../sass/style.scss */
+.imgcircle {
+  width: 6.25em;
+  height: 6.25;
+  border-radius: 100%;
+}
