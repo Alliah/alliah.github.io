@@ -83,7 +83,7 @@ p {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   margin: 1.414em 0 0.5em;
   font-weight: inherit;
-  line-height: 1.2;
+  line-height: 1.6;
 }
 
 /* line 24, ../sass/style.scss */
@@ -142,56 +142,61 @@ h6, .h6, small, .small {
   margin-top: 20px;
 }
 
-/* line 47, ../sass/style.scss */
+/* line 46, ../sass/style.scss */
+.mb30 {
+  margin-bottom: 30px;
+}
+
+/* line 48, ../sass/style.scss */
 .pd0 {
   padding: 0 !important;
 }
 
-/* line 48, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 .pd10 {
   padding: 10px;
 }
 
-/* line 49, ../sass/style.scss */
+/* line 50, ../sass/style.scss */
 .pd20 {
   padding: 20px;
 }
 
-/* line 50, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 .pt10 {
   padding-top: 10px;
 }
 
-/* line 51, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 .pt20 {
   padding-top: 20px;
 }
 
-/* line 53, ../sass/style.scss */
+/* line 54, ../sass/style.scss */
 .center {
   text-align: center;
 }
 
-/* line 58, ../sass/style.scss */
+/* line 59, ../sass/style.scss */
 #homepage .imgcircle {
   width: 6.25em;
   height: 6.25em;
   border-radius: 100%;
 }
-/* line 64, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
 #homepage .profile {
   padding-top: 80px;
 }
-/* line 66, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 #homepage .siteheader {
   background-color: #000;
   height: 40px;
   width: 100%;
   opacity: .8;
 }
-/* line 73, ../sass/style.scss */
+/* line 74, ../sass/style.scss */
 #homepage .maindescription {
-  width: 750px;
+  width: 700px;
   margin: 0 auto;
   font-size: 16px;
 }
