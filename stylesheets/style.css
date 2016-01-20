@@ -215,8 +215,9 @@ a {
   width: 700px;
   margin: 0 auto;
   font-size: 16px;
+  padding: 40px 0 0 90px;
 }
-/* line 88, ../sass/style.scss */
+/* line 89, ../sass/style.scss */
 #homepage .sitefooter {
   height: 50px;
 }
