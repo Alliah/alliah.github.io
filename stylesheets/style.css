@@ -123,13 +123,15 @@ h6, .h6, small, .small {
   height: 6.25em;
   border-radius: 100%;
 }
-/* line 60, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
 #homepage .profile {
   text-align: center;
+  padding-top: 80px;
 }
-/* line 62, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 #homepage .siteheader {
-  background-color: #00858A;
-  height: 50px;
+  background-color: #000;
+  height: 40px;
   width: 100%;
+  opacity: .8;
 }

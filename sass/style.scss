@@ -57,11 +57,16 @@ h6, .h6, small, .small {font-size: 0.833em;}
 	height: 6.25em;
 	border-radius: 100%;
 	}
-	.profile { text-align: center; }
+
+	.profile { 
+		text-align: center;
+		padding-top: 80px;
+	}
 
 	.siteheader { 
-		background-color: #00858A;
-		height: 50px;
+		background-color: #000;
+		height: 40px;
 		width: 100%;
+		opacity: .8;
 	}
 }
