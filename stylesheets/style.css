@@ -218,7 +218,5 @@ a {
 /* line 84, ../sass/style.scss */
 #homepage .maindescription {
   width: 700px;
-  margin: 0 auto;
   font-size: 16px;
-  padding: 20px 0 100px;
 }
