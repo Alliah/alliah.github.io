@@ -127,3 +127,9 @@ h6, .h6, small, .small {
 #homepage .profile {
   text-align: center;
 }
+/* line 62, ../sass/style.scss */
+#homepage .siteheader {
+  background-color: #00858A;
+  height: 50px;
+  width: 100%;
+}
