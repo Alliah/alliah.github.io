@@ -39,16 +39,18 @@ h6, .h6, small, .small {font-size: 0.833em;}
 // Margins and Pads
 
 .m0 { margin: 0 !important; }
-.m1 { margin: 10px; }
-.m2 { margin: 20px; }
-.mt1 { margin-top: 10px; }
-.mt2 { margin-top: 20px; }
+.m10 { margin: 10px; }
+.m20 { margin: 20px; }
+.mt10 { margin-top: 10px; }
+.mt20 { margin-top: 20px; }
 
 .pd0 { padding: 0 !important; }
-.pd1 { padding: 10px; }
-.pd2 { padding: 20px; }
-.pt { padding-top: 10px; }
-.pt2 { padding-top: 20px; }
+.pd10 { padding: 10px; }
+.pd20 { padding: 20px; }
+.pt10 { padding-top: 10px; }
+.pt20 { padding-top: 20px; }
+
+.center {text-align: center; }
 
 // Specific Rules
 #homepage {
@@ -59,15 +61,18 @@ h6, .h6, small, .small {font-size: 0.833em;}
 	border-radius: 100%;
 	}
 
-	.profile { 
-		text-align: center;
-		padding-top: 80px;
-	}
+	.profile { padding-top: 80px; }
 
 	.siteheader { 
 		background-color: #000;
 		height: 40px;
 		width: 100%;
 		opacity: .8;
+	}
+
+	.maindescription {
+		width: 750px;
+		margin: 0 auto;
+		font-size: 16px;
 	}
 }
