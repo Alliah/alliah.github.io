@@ -117,84 +117,95 @@ h6, .h6, small, .small {
   font-size: 0.833em;
 }
 
+/* line 39, ../sass/style.scss */
+strong {
+  font-weight: 600;
+}
+
 /* line 41, ../sass/style.scss */
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* line 48, ../sass/style.scss */
 .m0 {
   margin: 0 !important;
 }
 
-/* line 42, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 .m10 {
   margin: 10px;
 }
 
-/* line 43, ../sass/style.scss */
+/* line 50, ../sass/style.scss */
 .m20 {
   margin: 20px;
 }
 
-/* line 44, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 .mt10 {
   margin-top: 10px;
 }
 
-/* line 45, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 .mt20 {
   margin-top: 20px;
 }
 
-/* line 46, ../sass/style.scss */
+/* line 53, ../sass/style.scss */
 .mb30 {
   margin-bottom: 30px;
 }
 
-/* line 48, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 .pd0 {
   padding: 0 !important;
 }
 
-/* line 49, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 .pd10 {
   padding: 10px;
 }
 
-/* line 50, ../sass/style.scss */
+/* line 57, ../sass/style.scss */
 .pd20 {
   padding: 20px;
 }
 
-/* line 51, ../sass/style.scss */
+/* line 58, ../sass/style.scss */
 .pt10 {
   padding-top: 10px;
 }
 
-/* line 52, ../sass/style.scss */
+/* line 59, ../sass/style.scss */
 .pt20 {
   padding-top: 20px;
 }
 
-/* line 54, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
 .center {
   text-align: center;
 }
 
-/* line 59, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 #homepage .imgcircle {
   width: 6.25em;
   height: 6.25em;
   border-radius: 100%;
 }
-/* line 65, ../sass/style.scss */
+/* line 72, ../sass/style.scss */
 #homepage .profile {
   padding-top: 80px;
 }
-/* line 67, ../sass/style.scss */
+/* line 74, ../sass/style.scss */
 #homepage .siteheader {
   background-color: #000;
   height: 40px;
   width: 100%;
   opacity: .8;
 }
-/* line 74, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 #homepage .maindescription {
   width: 700px;
   margin: 0 auto;
