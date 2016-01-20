@@ -117,18 +117,68 @@ h6, .h6, small, .small {
   font-size: 0.833em;
 }
 
-/* line 55, ../sass/style.scss */
+/* line 41, ../sass/style.scss */
+.m0 {
+  margin: 0 !important;
+}
+
+/* line 42, ../sass/style.scss */
+.m1 {
+  margin: 10px;
+}
+
+/* line 43, ../sass/style.scss */
+.m2 {
+  margin: 20px;
+}
+
+/* line 44, ../sass/style.scss */
+.mt1 {
+  margin-top: 10px;
+}
+
+/* line 45, ../sass/style.scss */
+.mt2 {
+  margin-top: 20px;
+}
+
+/* line 47, ../sass/style.scss */
+.pd0 {
+  padding: 0 !important;
+}
+
+/* line 48, ../sass/style.scss */
+.pd1 {
+  padding: 10px;
+}
+
+/* line 49, ../sass/style.scss */
+.pd2 {
+  padding: 20px;
+}
+
+/* line 50, ../sass/style.scss */
+.pt {
+  padding-top: 10px;
+}
+
+/* line 51, ../sass/style.scss */
+.pt2 {
+  padding-top: 20px;
+}
+
+/* line 56, ../sass/style.scss */
 #homepage .imgcircle {
   width: 6.25em;
   height: 6.25em;
   border-radius: 100%;
 }
-/* line 61, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 #homepage .profile {
   text-align: center;
   padding-top: 80px;
 }
-/* line 66, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 #homepage .siteheader {
   background-color: #000;
   height: 40px;
