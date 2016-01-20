@@ -200,7 +200,7 @@ a {
   padding-top: 80px;
 }
 /* line 75, ../sass/style.scss */
-#homepage .siteheader {
+#homepage .siteheader, #homepage .sitefooter {
   background-color: #000;
   height: 40px;
   width: 100%;
