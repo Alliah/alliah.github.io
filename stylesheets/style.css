@@ -218,5 +218,11 @@ a {
 /* line 84, ../sass/style.scss */
 #homepage .maindescription {
   width: 700px;
+  margin: auto;
   font-size: 16px;
+  padding-bottom: 120px;
+}
+/* line 91, ../sass/style.scss */
+#homepage .sitefooter {
+  height: 50px;
 }
