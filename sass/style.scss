@@ -6,7 +6,7 @@ html { box-sizing: border-box;}
 body {
 	font-family: "Source Sans Pro", sans-serif;
 	color: #333;
-	line-height: 1.45;
+	line-height: 1.7;
 	background-color: #fff;
 	margin: 0;
 	-webkit-text-size-adjust: none;
@@ -20,7 +20,6 @@ p {margin-bottom: 1.3em;}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   margin: 1.414em 0 0.5em;
   font-weight: inherit;
-  line-height: 1.500;
 }
 
 h1, .h1 {
@@ -68,18 +67,12 @@ a {
 #homepage {
 	
 	.imgcircle {
-	width: 6.25em;
-	height: 6.25em;
-	border-radius: 100%;
+		width: 6.25em;
+		height: 6.25em;
+		border-radius: 100%;
 	}
 
 	.profile { padding-top: 90px; }
-
-	.siteheader, .sitefooter { 
-		background-color: #000;
-		height: 20px;
-		opacity: .8;
-	}
 
 	.maindescription {
 		width: 700px;
@@ -88,5 +81,15 @@ a {
 		padding-bottom: 120px;
 	}
 
-	.sitefooter { height: 50px; }
+	@media screen and (min-width: 320px) and ( max-width: 800px) {
+		.maindescription {
+			width: 80%;
+
+			padding-top: 10px;
+		}
+
+		.profile {
+			h1 { font-size: 1.44em;}
+		}
+	}
 }
