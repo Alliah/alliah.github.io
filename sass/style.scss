@@ -5,12 +5,13 @@ html { box-sizing: border-box;}
 
 body {
 	font-family: "Source Sans Pro", sans-serif;
-	color: #333;
+	color: #222;
 	line-height: 1.7;
-	background-color: #fff;
+	background-color: #F5F5F5;
 	margin: 0;
 	-webkit-text-size-adjust: none;
 	font-weight: 400;
+	font-size: 16px;
 }
 
 // Typography
@@ -52,6 +53,7 @@ a {
 .m20 { margin: 20px; }
 .mt10 { margin-top: 10px; }
 .mt20 { margin-top: 20px; }
+.mb20 { margin-bottom: 20px }
 .mb30 { margin-bottom: 30px; }
 
 .pd0 { padding: 0 !important; }
@@ -60,11 +62,22 @@ a {
 .pt10 { padding-top: 10px; }
 .pt20 { padding-top: 20px; }
 .pt30 { padding-top: 30px; }
+.pb30 { padding-bottom: 30px;}
 
+// Text-Alignment
 .center {text-align: center; }
 
+// Wrapper for margin
+
+// Font Weight
+.bold { font-weight: bold; }
+
 // Specific Rules
-#homepage {
+#homepage {	
+
+	&.body-container {
+		margin: 0 22%;
+	}
 	
 	.imgcircle {
 		width: 6.25em;
@@ -82,10 +95,9 @@ a {
 	}
 
 	@media screen and (min-width: 320px) and ( max-width: 800px) {
-		.maindescription {
-			width: 80%;
 
-			padding-top: 10px;
+		&.body-container {
+			margin: 0 5%;
 		}
 
 		.profile {
