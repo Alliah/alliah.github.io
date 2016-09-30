@@ -240,7 +240,11 @@ a {
   #homepage.body-container {
     margin: 0 5%;
   }
-  /* line 104, ../sass/style.scss */
+  /* line 103, ../sass/style.scss */
+  #homepage .profile {
+    padding-top: 15%;
+  }
+  /* line 105, ../sass/style.scss */
   #homepage .profile h1 {
     font-size: 1.44em;
   }
