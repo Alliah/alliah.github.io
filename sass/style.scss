@@ -1,108 +1,149 @@
 @import "compass/reset";
 @import "compass/css3";
 
-html { box-sizing: border-box;}
+// html { box-sizing: border-box;}
+
+// body {
+// 	font-family: "Source Sans Pro", sans-serif;
+// 	color: #222;
+// 	line-height: 1.7;
+// 	background-color: #F5F5F5;
+// 	margin: 0;
+// 	-webkit-text-size-adjust: none;
+// 	font-weight: 400;
+// 	font-size: 16px;
+// }
+
+// // Typography
+// // Perfect Fourth
+// p {margin-bottom: 1.3em;}
+
+// h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+//   margin: 1.414em 0 0.5em;
+//   font-weight: inherit;
+// }
+
+// h1, .h1 {
+//   margin-top: 0;
+//   font-size: 2.074em;
+// }
+
+// h2, .h2 {font-size: 1.728em;}
+
+// h3, .h3 {font-size: 1.44em;}
+
+// h4, .h4 {font-size: 1.2em;}
+
+// h5, .h5 {font-size: 1em;}
+
+// h6, .h6, small, .small {font-size: 0.833em;}
+
+// strong { font-weight: 600;}
+
+// a {
+// 	text-decoration: none;
+// 	cursor: pointer;
+// 	color: #1A6EB7;
+// }
+
+// // Margins and Pads
+
+// .m0 { margin: 0 !important; }
+// .m10 { margin: 10px; }
+// .m20 { margin: 20px; }
+// .mt10 { margin-top: 10px; }
+// .mt20 { margin-top: 20px; }
+// .mb20 { margin-bottom: 20px }
+// .mb30 { margin-bottom: 30px; }
+
+// .pd0 { padding: 0 !important; }
+// .pd10 { padding: 10px; }
+// .pd20 { padding: 20px; }
+// .pt10 { padding-top: 10px; }
+// .pt20 { padding-top: 20px; }
+// .pt30 { padding-top: 30px; }
+// .pb30 { padding-bottom: 30px;}
+
+// // Text-Alignment
+// .center {text-align: center; }
+
+// // Wrapper for margin
+
+// // Font Weight
+// .bold { font-weight: bold; }
+
+// // Specific Rules
+// #homepage {	
+
+// 	&.body-container {
+// 		margin: 0 22%;
+// 	}
+	
+// 	.imgcircle {
+// 		width: 6.25em;
+// 		height: 6.25em;
+// 		border-radius: 100%;
+// 	}
+
+// 	.profile { padding-top: 90px; }
+
+// 	.maindescription {
+// 		width: 700px;
+// 		margin: auto;
+// 		font-size: 16px;
+// 		padding-bottom: 120px;
+// 	}
+
+// 	@media screen and (min-width: 320px) and ( max-width: 800px) {
+
+// 		&.body-container {
+// 			margin: 0 5%;
+// 		}
+
+// 		.profile {
+// 			padding-top: 15%;
+// 			h1 { font-size: 1.44em;}
+// 		}
+// 	}
+// }
+
+body, html {
+	height: 100%;
+}
 
 body {
-	font-family: "Source Sans Pro", sans-serif;
-	color: #222;
-	line-height: 1.7;
-	background-color: #F5F5F5;
-	margin: 0;
-	-webkit-text-size-adjust: none;
-	font-weight: 400;
-	font-size: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-// Typography
-// Perfect Fourth
-p {margin-bottom: 1.3em;}
-
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  margin: 1.414em 0 0.5em;
-  font-weight: inherit;
-}
-
-h1, .h1 {
-  margin-top: 0;
-  font-size: 2.074em;
-}
-
-h2, .h2 {font-size: 1.728em;}
-
-h3, .h3 {font-size: 1.44em;}
-
-h4, .h4 {font-size: 1.2em;}
-
-h5, .h5 {font-size: 1em;}
-
-h6, .h6, small, .small {font-size: 0.833em;}
-
-strong { font-weight: 600;}
-
-a {
-	text-decoration: none;
-	cursor: pointer;
-	color: #1A6EB7;
-}
-
-// Margins and Pads
-
-.m0 { margin: 0 !important; }
-.m10 { margin: 10px; }
-.m20 { margin: 20px; }
-.mt10 { margin-top: 10px; }
-.mt20 { margin-top: 20px; }
-.mb20 { margin-bottom: 20px }
-.mb30 { margin-bottom: 30px; }
-
-.pd0 { padding: 0 !important; }
-.pd10 { padding: 10px; }
-.pd20 { padding: 20px; }
-.pt10 { padding-top: 10px; }
-.pt20 { padding-top: 20px; }
-.pt30 { padding-top: 30px; }
-.pb30 { padding-bottom: 30px;}
-
-// Text-Alignment
-.center {text-align: center; }
-
-// Wrapper for margin
-
-// Font Weight
-.bold { font-weight: bold; }
-
-// Specific Rules
-#homepage {	
-
-	&.body-container {
-		margin: 0 22%;
-	}
-	
-	.imgcircle {
-		width: 6.25em;
-		height: 6.25em;
-		border-radius: 100%;
+#animation-page {
+	.element {
+		height: 200px;
+		width: 200px;
+		margin: 30px auto 0;
+		background-color: #3a3a4a;
+		animation-name: stretch;
+		animation-duration: 1s;
+		animation-timing-function: ease-out;
+		animation-direction: alternate;
+		animation-iteration-count: infinite;
+		animation-fill-mode: none;
+		animation-play-state: running;
 	}
 
-	.profile { padding-top: 90px; }
-
-	.maindescription {
-		width: 700px;
-		margin: auto;
-		font-size: 16px;
-		padding-bottom: 120px;
-	}
-
-	@media screen and (min-width: 320px) and ( max-width: 800px) {
-
-		&.body-container {
-			margin: 0 5%;
+	@keyframes stretch {
+		0% {
+			transform: scale(.1);
+			background-color: #eee;
+			border-radius: 100%;
 		}
-
-		.profile {
-			padding-top: 15%;
-			h1 { font-size: 1.44em;}
+		50% {
+			background-color: #555;
+		}
+		100% {
+			transform: scale(2);
+			background-color: #ccc;
 		}
 	}
 }
